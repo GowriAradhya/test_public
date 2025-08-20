@@ -28,8 +28,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 500,
-        "y": 320,
+        "x": 340,
+        "y": 180,
         "wires": [
             [
                 "b732a8c299b9c848"
@@ -50,6 +50,22 @@
         "statusType": "auto",
         "x": 820,
         "y": 380,
+        "wires": []
+    },
+    {
+        "id": "d1cc3adaafecdcc5",
+        "type": "debug",
+        "z": "0957b587be517fb2",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 360,
+        "y": 360,
         "wires": []
     }
 ]
