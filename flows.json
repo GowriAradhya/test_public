@@ -80,18 +80,5 @@
         "wires": [
             []
         ]
-    },
-    {
-        "id": "3dfb3b931947f1e6",
-        "type": "complete",
-        "z": "0957b587be517fb2",
-        "name": "",
-        "scope": [],
-        "uncaught": false,
-        "x": 290,
-        "y": 260,
-        "wires": [
-            []
-        ]
     }
 ]
