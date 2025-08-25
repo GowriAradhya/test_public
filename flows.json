@@ -48,8 +48,8 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 580,
-        "y": 420,
+        "x": 740,
+        "y": 80,
         "wires": []
     },
     {
@@ -69,13 +69,12 @@
         "wires": []
     },
     {
-        "id": "7a069a533adb502a",
-        "type": "catch",
+        "id": "93359582d15ddf79",
+        "type": "status",
         "z": "0957b587be517fb2",
         "name": "",
         "scope": null,
-        "uncaught": false,
-        "x": 240,
+        "x": 320,
         "y": 260,
         "wires": [
             []
