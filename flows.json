@@ -32,7 +32,8 @@
         "y": 180,
         "wires": [
             [
-                "b732a8c299b9c848"
+                "b732a8c299b9c848",
+                "82b7667e4bdba2c5"
             ]
         ]
     },
@@ -64,20 +65,28 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 360,
-        "y": 360,
+        "x": 720,
+        "y": 280,
         "wires": []
     },
     {
-        "id": "93359582d15ddf79",
-        "type": "status",
+        "id": "82b7667e4bdba2c5",
+        "type": "file in",
         "z": "0957b587be517fb2",
         "name": "",
-        "scope": null,
-        "x": 320,
-        "y": 260,
+        "filename": "",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 460,
+        "y": 280,
         "wires": [
-            []
+            [
+                "d1cc3adaafecdcc5"
+            ]
         ]
     }
 ]
